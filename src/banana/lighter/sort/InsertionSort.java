@@ -3,9 +3,9 @@ package banana.lighter.sort;
 import java.util.Arrays;
 import java.util.LinkedList;
 
-import banana.lighter.sort.itf.Sort;
+import banana.lighter.sort.itf.SortInteger;
 
-public class InsertionSort implements Sort {
+public class InsertionSort implements SortInteger {
 	
 	@Override
 	public LinkedList<Integer> sort(LinkedList<Integer> toSort) {
